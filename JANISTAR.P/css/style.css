@@ -1,0 +1,143 @@
+*,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+header{
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+    margin: 0px;
+   
+}
+nav{
+    display: grid;
+    grid-template-columns:    25%  25%  25%  25% ;
+    margin-top: 20px;
+    text-align: center;
+   
+}
+nav a{
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    color: black;
+    height: 100%;
+    width: 100%;
+   
+}
+#inde{
+    background-color: #C95C71;
+    color:white;
+    border-radius: 10px;
+}
+#HOME{ 
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 0px;
+    padding: 0px;
+}
+#HOME div{
+    margin: 20%;
+    margin-top: 30%;
+    color: #C95C71;
+   
+}
+#HOME div h4{
+   color:grey;
+}
+img{
+    margin: 0px;
+    margin-bottom: 0px;
+    padding: 0px;
+}
+/* -------------------------------------about-------------------------------------- */
+footer{
+    display: grid;
+    grid-template-columns: 33% 34% 33%;
+    margin: 0px;
+    margin-top: 50px;
+    padding: 0px;
+}
+footer div{
+    margin: 10px;
+    box-shadow: 25px 25px 30px rgba(0,0,0,0.15);
+    border-radius: 5px;
+    padding: 10px;
+    padding-left: 20px;
+    color:grey;
+}
+/* ------------------------------------Game----------------------------------- */
+#GAME{
+    margin-left: 30%;
+    margin-right: 30%;
+}
+#GAME div{
+    display: flex;
+}
+#GAME #number h1{
+    display: flex;
+    margin: 20px;
+    font-size: 8em;
+
+}
+#RESET{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    width: 100px;
+    background-color: #EAC7CB;
+    color:grey;
+}
+#CHECK{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    width: 100px;
+    background-color: #EAC7CB;
+    color:grey;
+}
+/* ------------------------------------------------------------------ */
+#gsllery{
+    display: grid;
+    grid-template-columns: 33% 34% 33%;
+    margin-top: 40px;
+    
+}
+#gsllery img{
+    margin-left: 20%;
+    padding: 10px;
+
+}
+/* ---------------------------------------------------------------------- */
+@media screen and (max-width:1000px) { /*responsive design*/
+    header{
+        display: grid;
+        grid-template-columns: 10% 80% 10%;
+        margin: 0px;
+       
+    }
+    #HOME{ 
+        display: grid;
+        grid-template-columns: 100%;
+
+    }
+    footer{
+        display: grid;
+        grid-template-columns: 100%;
+    }
+    #gsllery{ 
+        display: grid;
+        grid-template-columns: 50% 50%;
+
+    }
+    #images{
+        margin: 0px;
+        padding: 0px;
+        display: none;
+       }
+}
